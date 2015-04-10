@@ -1,0 +1,5 @@
+Zihang Feng
+jfeng9
+665726671
+
+	The programs use all functions described in the handout except the select because the server application only accpets one connection at a time. Both programs provide the default argument values if the user does not give any. The server application follows the general procedure that it creates the socket, bind, listen, accept and so on. Those function are reqiured in this assignment. In addition, the client also has most of the stuff, such as, socket and connect. When I complie the program, they don't not communicate with each other. Soemthing might be wrong in the client application . However, when I use the professor IP address, there are two outcomes. The first one shows core dump, which means the reference issue that I can't figure out what it is. The second time when I run the program without any change to the client program, it gives me connect erorr.  

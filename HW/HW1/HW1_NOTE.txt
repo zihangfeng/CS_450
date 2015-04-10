@@ -1,0 +1,9 @@
+bert.cs.uic.edu:80
+
+	We use the socket method to establish a connection for to your desired destination - informally speaking you create a door for yourself and the server.
+
+    int	socket(AF_INET,SOCK_STREAM,0) = it creates a tcp connection (given to you as a file descriptor). Reading/writing to this file is equivalent to receiving/sending information to the desired endpoint. Successfully, it returns a file descriptor or -1 for error.
+
+getaddrinfo(hostname, portnumber, &hints, &addrinfostruct
+
+CONNECT
